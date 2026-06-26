@@ -1,15 +1,18 @@
 # smart-register-releases
 
-Public release channel for **Smart Register**. Holds installers + `latest.yml` for auto-update. Source code lives in a private repo.
+Public release channel for Smart Register. Installers and `latest.yml`
+for the auto-updater live here. Source code is in a private repo.
 
 ## First-time install
 
-Read **[INSTALL.md](INSTALL.md)** — a non-technical, step-by-step guide that walks through the Windows "unrecognised app" warning.
+Read [INSTALL.md](INSTALL.md). It walks through the Windows
+"unrecognised app" warning step-by-step.
 
 ## Latest release
 
-Go to **[Releases](https://github.com/kkhinds/smart-register-releases/releases/latest)** and download the file named `Smart-Register-Setup-1.x.x.exe`.
+[Releases](https://github.com/kkhinds/smart-register-releases/releases/latest). Download the file named `Smart-Register-Setup-1.x.x.exe`.
 
-## Auto-updates
+## Updates
 
-Installed copies check this repo every launch and update themselves in the background. No action needed.
+Installed copies check this repo on every launch and install updates
+in the background.
