@@ -22,17 +22,25 @@ Double-click the file in your Downloads folder.
 
 ### "Windows protected your PC"
 
-A blue dialog appears:
+The first time you run the installer, Windows shows a blue warning. This
+is because the app is not code-signed yet, not because anything is wrong
+with it. You get past it in two clicks.
 
-> Windows protected your PC
->
-> Microsoft Defender SmartScreen prevented an unrecognized app from
-> starting. Running this app might put your PC at risk.
->
-> [ Don't run ]
+**Step 1. Click "More info".** The dialog first shows only a **Don't
+run** button. Click the small underlined **More info** link near the top
+left, just under the message.
 
-Click **More info** (small text near the top of the dialog). A new
-button appears at the bottom. Click **Run anyway**.
+![The "Windows protected your PC" dialog. Click the "More info" link near the top left.](docs/images/smartscreen-1-more-info.png)
+
+**Step 2. Click "Run anyway".** The dialog now shows the app name and
+"Unknown publisher", and a **Run anyway** button appears at the bottom
+left. Click it.
+
+![After clicking "More info", the app name shows and a "Run anyway" button appears at the bottom. Click "Run anyway".](docs/images/smartscreen-2-run-anyway.png)
+
+The app should be named `Smart-Register-Setup-<version>.exe` and the
+publisher will read "Unknown publisher". That is expected until the app
+is signed, and it is safe to continue.
 
 If the dialog has no **More info** link, the download was interrupted.
 Re-download the installer.
