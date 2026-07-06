@@ -88,7 +88,7 @@ folder inside your OneDrive or Google Drive directory.
 **Antivirus quarantined the file.** Some antivirus products block
 unsigned installers. Either restore the file from quarantine and re-run
 it, or add this folder to your antivirus exclusion list:
-`C:\Users\<your-username>\AppData\Local\Programs\Smart Register\`
+`C:\Program Files\Smart Register\`
 
 **Installer crashes or hangs.** Right-click the installer, **Run as
 administrator**. If it still fails, restart and try again. If still
